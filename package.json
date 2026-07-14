@@ -1,0 +1,10 @@
+{
+  "name": "cursor-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Official Close plugin for Cursor",
+  "scripts": {
+    "validate": "node scripts/validate.mjs"
+  },
+  "license": "MIT"
+}

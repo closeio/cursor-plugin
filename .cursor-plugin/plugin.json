@@ -1,0 +1,18 @@
+{
+  "name": "close",
+  "displayName": "Close",
+  "version": "0.1.0",
+  "description": "Connect Cursor to Close CRM to research leads, review pipeline, analyze sales activity, and safely update CRM records.",
+  "author": {
+    "name": "Close",
+    "email": "support@close.com"
+  },
+  "homepage": "https://close.com",
+  "repository": "https://github.com/closeio/cursor-plugin",
+  "license": "MIT",
+  "keywords": ["close", "crm", "sales", "mcp", "leads", "pipeline"],
+  "logo": "assets/mark.png",
+  "mcpServers": "../.cursor-mcp.json",
+  "skills": "./skills/",
+  "commands": "./commands/"
+}
