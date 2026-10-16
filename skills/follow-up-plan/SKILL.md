@@ -1,9 +1,9 @@
 ---
 name: follow-up-plan
-description: Prepare a follow-up plan for a Close lead based on its latest conversations and open tasks.
+description: Prepare a follow-up plan when the user wants next steps for a Close lead, based on its latest conversations and open tasks.
 ---
 
-Prepare a follow-up plan for `$ARGUMENTS` using Close MCP tools.
+Prepare a follow-up plan for the lead identified in the user's request using Close MCP tools. If no lead is specified, ask which lead to review.
 
 Find and disambiguate the lead, review its recent calls, meetings, emails, notes, opportunity state, and incomplete tasks, then provide:
 

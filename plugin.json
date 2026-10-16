@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "close",
+  "version": "0.2.0",
+  "description": "Connect your AI agent to Close CRM to research leads, review pipeline, analyze sales activity, and safely update CRM records.",
+  "author": {
+    "name": "Close",
+    "email": "support@close.com"
+  },
+  "homepage": "https://developer.close.com/mcp",
+  "repository": "https://github.com/closeio/agent-plugin",
+  "license": "MIT",
+  "keywords": ["close", "crm", "sales", "mcp", "leads", "pipeline"]
+}

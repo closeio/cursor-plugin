@@ -1,9 +1,9 @@
 ---
 name: pipeline-review
-description: Review the Close pipeline for risk, stale deals, and recommended next actions.
+description: Review the Close pipeline when the user wants to assess opportunity risk, find stale deals, or prioritize next actions.
 ---
 
-Review the Close pipeline for `$ARGUMENTS`. If no filter is provided, review active opportunities visible to the current user.
+Review the Close pipeline using the filters in the user's request. If no filter is provided, review active opportunities visible to the current user.
 
 Use Close MCP tools to identify:
 

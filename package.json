@@ -1,10 +1,18 @@
 {
-  "name": "cursor-plugin",
-  "version": "0.1.0",
+  "name": "close-agent-plugin",
+  "version": "0.2.0",
   "private": true,
-  "description": "Official Close plugin for Cursor",
-  "scripts": {
-    "validate": "node scripts/validate.mjs"
+  "description": "Official Close plugin for clients supporting the Agent Plugins standard",
+  "engines": {
+    "node": ">=22"
   },
-  "license": "MIT"
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test scripts/validate.test.mjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ajv": "8.20.0",
+    "yaml": "2.9.1"
+  }
 }

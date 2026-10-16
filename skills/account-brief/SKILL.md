@@ -1,9 +1,9 @@
 ---
 name: account-brief
-description: Build a concise Close account brief from recent activity, contacts, opportunities, and tasks.
+description: Build a Close account brief when preparing for a call or researching a lead, using recent activity, contacts, opportunities, and tasks.
 ---
 
-Create a concise account brief for `$ARGUMENTS` using Close MCP tools.
+Create a concise account brief for the lead identified in the user's request using Close MCP tools. If no lead is specified, ask which lead to research.
 
 Find and disambiguate the lead first. Then cover:
 
